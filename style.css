@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #141618;
+    background: cover ;
+  width: 100%;
+  height: 135px;
+
+}
+
+.button{
+    text-decoration : none;
+    margin-right: 60px;
+    color: white;
+    font-size: large;
+    font-size: small;
+}
+
+.logo{
+    font-weight: 600;
+    background: no-repeat url("https://i0.wp.com/www.rockstarmag.fr/wp-content/uploads/2023/01/cropped-mini-logo-rockstar-mag-10-th-anniversary-white.jpg?fit=189%2C63&ssl=1");  
+    width: 20%;
+    height: 60%;
+}
+img{
+    object-fit: cover ;
+    width: 100%;
+    height: 25%;
+    
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.baniere{
+    background: no-repeat url("https://www.rockstarmag.fr/wp-content/uploads/2023/10/Miami-Beach-Wallpaper-2000x1200-56312-copie.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 335.6px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+i{
+    color: white;
+}
